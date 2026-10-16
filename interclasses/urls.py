@@ -20,5 +20,5 @@ from jogos import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.mostrar_home),
+    #path('', views.mostrar_home),
 ]
